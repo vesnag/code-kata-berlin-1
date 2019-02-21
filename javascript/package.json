@@ -1,7 +1,7 @@
 {
   "name": "code-kata-berlin-1",
   "version": "1.0.0",
-  "description": "Code Kata Berlin Starter",
+  "description": "Code Kata Berlin Bootstrap",
   "main": "jata.js",
   "scripts": {
     "test": "jest"
@@ -9,15 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dantleech/code-kata-berlin-1.git"
-  },
-  "keywords": [
-    "Code",
-    "kata"
-  ],
-  "author": "Anil Maharjan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dantleech/code-kata-berlin-1/issues"
   },
   "homepage": "https://github.com/dantleech/code-kata-berlin-1#readme",
   "devDependencies": {
