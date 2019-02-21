@@ -1,33 +1,46 @@
 # Code Kata Berlin 1
 
-## Installation (JavaScript)
+Code Kata Bootstrap repository:
+
+## Getting Started
+
+### JavaScript
 
 Start your project in the `javascript` directory:
 
 ```
-npm install
+$ cd javascript
+$ npm install
 ```
 
 Run the tests:
 
 ```
-npm test
+$ npm test
 ```
 
-### Example
-
-Create a file `kata.js`:
+### PHP
 
 ```
-function sum(a, b) {
-  return a + b;
-}
+$ cd php
+$ composer install
 ```
 
-module.exports.sum = sum;
+Create your test class:
+
+```
+$ ./vendor/bin/phpspec describe <your first class name>
 ```
 
- 
-## Installation (PHP) 
+Run the specs:
 
+```
+$ ./vendor/bin/phpspec run
+```
 
+## Remember to DELETE YOUR CODE!
+
+```
+$ git reset --hard
+$ git clean -f
+```
