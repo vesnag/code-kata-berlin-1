@@ -2,6 +2,8 @@
 
 ## Installation (JavaScript)
 
+Start your project in the `javascript` directory:
+
 ```
 npm install
 ```

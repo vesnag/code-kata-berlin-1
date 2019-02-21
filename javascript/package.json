@@ -2,7 +2,7 @@
   "name": "code-kata-berlin-1",
   "version": "1.0.0",
   "description": "Code Kata Berlin Starter",
-  "main": "index.js",
+  "main": "jata.js",
   "scripts": {
     "test": "jest"
   },
@@ -14,7 +14,7 @@
     "Code",
     "kata"
   ],
-  "author": "Dan Leech",
+  "author": "Anil Maharjan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dantleech/code-kata-berlin-1/issues"
