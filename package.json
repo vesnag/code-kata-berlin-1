@@ -1,0 +1,26 @@
+{
+  "name": "code-kata-berlin-1",
+  "version": "1.0.0",
+  "description": "Code Kata Berlin Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dantleech/code-kata-berlin-1.git"
+  },
+  "keywords": [
+    "Code",
+    "kata"
+  ],
+  "author": "Dan Leech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dantleech/code-kata-berlin-1/issues"
+  },
+  "homepage": "https://github.com/dantleech/code-kata-berlin-1#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
