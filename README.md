@@ -1,13 +1,13 @@
-#Code Kata Berlin 1
+# Code Kata Berlin 1
 
-##Installation (JavaScript)
+## Installation (JavaScript)
 
 ```npm install```
 
-##Running test
+## Running test
 ```npm test```
 
  
-##Installation (PHP) 
+## Installation (PHP) 
 
 TBD
