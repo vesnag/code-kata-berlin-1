@@ -1,5 +1,5 @@
-// function sum(a, b) {
+// function kata(a, b) {
 //   return a + b;
 // }
-
-// module.exports.sum = sum;
+// 
+// module.exports.kata = kata;
