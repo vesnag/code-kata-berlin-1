@@ -2,12 +2,30 @@
 
 ## Installation (JavaScript)
 
-```npm install```
+```
+npm install
+```
 
-## Running test
-```npm test```
+Run the tests:
+
+```
+npm test
+```
+
+### Example
+
+Create a file `kata.js`:
+
+```
+function sum(a, b) {
+  return a + b;
+}
+```
+
+module.exports.sum = sum;
+```
 
  
 ## Installation (PHP) 
 
-TBD
+
