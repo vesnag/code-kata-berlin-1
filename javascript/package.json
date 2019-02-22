@@ -2,7 +2,7 @@
   "name": "code-kata-berlin-1",
   "version": "1.0.0",
   "description": "Code Kata Berlin Bootstrap",
-  "main": "jata.js",
+  "main": "kata.js",
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watch"
