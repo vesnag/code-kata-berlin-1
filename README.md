@@ -19,6 +19,12 @@ Run the tests:
 $ npm test
 ```
 
+Run the tests and watch file changes:
+
+```
+$ npm test-watch
+```
+
 ### PHP
 
 ```
