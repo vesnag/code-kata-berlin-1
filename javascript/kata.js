@@ -1,5 +1,5 @@
-// function kata(a, b) {
-//   return a + b;
+// function kata(roman, arabic) {
+//     return 1;
 // }
 // 
 // module.exports.kata = kata;

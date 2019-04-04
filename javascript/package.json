@@ -15,5 +15,8 @@
   "homepage": "https://github.com/dantleech/code-kata-berlin-1#readme",
   "devDependencies": {
     "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "jest-each": "^24.7.1"
   }
 }
