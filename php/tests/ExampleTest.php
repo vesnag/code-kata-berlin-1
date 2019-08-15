@@ -2,34 +2,35 @@
 
 namespace Tests;
 
+use ChainGenerator;
 use Example;
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
 {
-    public function testCanBeInstantiated()
-    {
-        $example = new Example();
-        Assert::assertInstanceOf(Example::class, $example);
-    }
-
     /**
-     * @dataProvider provideAddsNumbers
+     * @dataProvider provideGenerateChain
      */
-    public function testAddsNumbers($a, $b, $expectedResult)
+    public function testGenerateChain(string $start, string $end)
     {
-        Assert::assertEquals($expectedResult, $a + $b);
+        $generator = new ChainGenerator();
+        $chain = $generator->generate($start, $end);
+        var_dump($chain);
+        $generatedEnd = array_pop($chain);
+        $this->assertEquals($end, $generatedEnd);
     }
 
-    public function provideAddsNumbers()
+    public function provideGenerateChain()
     {
-        yield '1 + 1' => [
-            1, 1, 2
+        yield [
+            'cat',
+            'dog',
         ];
 
-        yield '1 + 3' => [
-            1, 3, 4
+        yield [
+            'lead',
+            'gold',
         ];
     }
 }
