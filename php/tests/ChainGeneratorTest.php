@@ -14,6 +14,9 @@ class ChainGeneratorTest extends TestCase
      */
     public function testGenerateChain(string $start, string $end)
     {
+        $chainGenerator = new ChainGenerator();
+        $chain = $chainGenerator->generate($start, $end);
+        var_dump($chain);
     }
 
     public function provideGenerateChain()
@@ -23,9 +26,9 @@ class ChainGeneratorTest extends TestCase
             'dog',
         ];
 
-        yield [
-            'lead',
-            'gold',
-        ];
+//        yield [
+//            'lead',
+//            'gold',
+//        ];
     }
 }
