@@ -14,7 +14,11 @@
   },
   "homepage": "https://github.com/dantleech/code-kata-berlin-1#readme",
   "devDependencies": {
-    "jest": "^24.1.0"
+    "@types/jest": "^24.9.0",
+    "@types/node": "^13.1.7",
+    "jest": "^24.1.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.5"
   },
   "dependencies": {
     "jest-each": "^24.7.1"
