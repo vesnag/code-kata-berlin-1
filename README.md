@@ -13,7 +13,7 @@ $ cd javascript
 $ npm install
 ```
 
-Run the tests:
+#### Run the tests:
 
 ```
 $ npm test
@@ -24,6 +24,12 @@ Run the tests and watch file changes:
 ```
 $ npm test-watch
 ```
+
+#### Run the tests using VSCode extension
+
+Or install Jest for VSCode
+https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
+
 
 ### PHP
 
