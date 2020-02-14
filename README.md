@@ -12,12 +12,32 @@ Start your project in the `javascript` directory:
 $ cd javascript
 $ npm install
 ```
+
 ### Quick start with a new kata
-Make a copy of the example kata under 
 
-`/javascript/src/example`
+run following
 
-and GO!
+```
+$ npm run kata:new <kataName>
+```
+
+`kataName` argument needs to be the name of the kata.
+
+It will create a new directory  
+`/javascript/src/<kataName>`
+
+with files
+
+```
+|-src
+  |- <kataName>
+    |- index.ts
+    |- index.test.ts
+```
+
+which contains basic barebone to get you up and running and runs jest watch on that directory for you.
+
+You are all set to start coding.
 
 #### Run the tests:
 
@@ -35,7 +55,6 @@ $ npm test-watch
 
 Or install Jest for VSCode
 https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
-
 
 ### PHP
 
