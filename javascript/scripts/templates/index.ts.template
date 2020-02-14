@@ -1,0 +1,6 @@
+export default class {{capitalName}} {
+  name: string;
+  constructor() {
+    this.name = '{{capitalName}}';
+  }
+}

@@ -1,0 +1,6 @@
+import {{capitalName}} from './index';
+
+test('Test should run', () => {
+  const {{name}} = new {{capitalName}}();
+  expect({{name}}.name).toBe('{{capitalName}}');
+});
