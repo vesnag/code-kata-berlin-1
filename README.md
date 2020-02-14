@@ -12,6 +12,12 @@ Start your project in the `javascript` directory:
 $ cd javascript
 $ npm install
 ```
+### Quick start with a new kata
+Make a copy of the example kata under 
+
+`/javascript/src/example`
+
+and GO!
 
 #### Run the tests:
 
