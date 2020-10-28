@@ -14,6 +14,18 @@ class KataOrganizer
         $this->hosts = $hosts;
     }
 
+    public function renderReport(array $people): string
+    {
+        $rooms = $this->organize($people);
+        $report = [];
+        foreach ($rooms as $room) {
+            assert($room instanceof Room);
+            $report[] = sprintf('- *%s*: %s', $room->occupantsAsString(), $room->name()) . PHP_EOL;
+        }
+
+        return implode("\n", $report);
+    }
+
     public function organize(array $people): array
     {
         if ($this->previous) {

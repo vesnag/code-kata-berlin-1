@@ -55,4 +55,9 @@ class Room
     {
         $this->occupants[array_search($string, $this->occupants)] = $argument1;
     }
+
+    public function name(): string
+    {
+        return $this->name;
+    }
 }
