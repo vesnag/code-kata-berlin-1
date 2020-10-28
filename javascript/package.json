@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watch",
-    "test-coverage": "jest --coverage",
-    "kata:new": "node ./scripts/kata"
+    "test-coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -22,8 +21,5 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "fs-extra": "^8.1.0",
-    "handlebars": "^4.7.3",
-    "jest-each": "^24.7.1"
   }
 }

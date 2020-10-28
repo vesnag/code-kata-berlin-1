@@ -8,18 +8,17 @@ use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
 {
-    public function testCanBeInstantiated()
+    public function testFoo(): void
     {
-        $example = new Example();
-        Assert::assertInstanceOf(Example::class, $example);
+        // Assert::assertEquals('foo', 'bar');
     }
 
     /**
      * @dataProvider provideAddsNumbers
      */
-    public function testAddsNumbers($a, $b, $expectedResult)
+    public function testAddsNumbers($a, $b, $expectedResult): void
     {
-        Assert::assertEquals($expectedResult, $a + $b);
+        // Assert::assertEquals($expectedResult, $a + $b);
     }
 
     public function provideAddsNumbers()
