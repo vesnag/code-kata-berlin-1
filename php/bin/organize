@@ -4,44 +4,44 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 $organizer = new KataOrganizer([
-    'https://meet.jit.si/inviqa-code-kata-1',
-    'https://meet.jit.si/inviqa-code-kata-2',
-    'https://meet.jit.si/inviqa-code-kata-3',
-    'https://meet.jit.si/inviqa-code-kata-4',
-    'https://meet.jit.si/inviqa-code-kata-5',
-    'https://meet.jit.si/inviqa-code-kata-6',
-    'https://meet.jit.si/inviqa-code-kata-7',
-    'https://meet.jit.si/inviqa-code-kata-8',
+    'https://meet.google.com/ptz-ucwq-ixo',
+    'https://meet.google.com/bic-pfsz-dww',
+    'https://meet.google.com/mhv-kdsx-tbd',
+    'https://meet.google.com/ujx-pbpb-cdb',
+    'https://meet.google.com/vfm-nrut-efe',
+    'https://meet.google.com/jxi-rgjb-osj',
+    'https://meet.google.com/ths-xvms-pdb',
+    'https://meet.google.com/scz-ntym-sbt',
+    'https://meet.google.com/tpz-hfzo-fwm',
+    'https://meet.google.com/wvh-aayu-bww',
+    'https://meet.google.com/zfs-bjwq-afg',
+    'https://meet.google.com/kyn-ibuz-rnf',
+    'https://meet.google.com/bra-bktx-smh',
+    'https://meet.google.com/jnu-gujg-zce',
+    'https://meet.google.com/tfc-vyuh-qwz',
 ], [
     'Daniel',
     'Andrey',
 ]);
 
+$participants = [
+    'Bob',
+    'Alice',
+    'Steve',
+    'Samantha',
+    'Jane',
+];
+
 echo "Round 1\n";
 echo "=======\n";
 echo "\n";
 
-echo $organizer->renderReport([
-    'Pete',
-    'Laura',
-    'Oleksi',
-    'Norbert',
-    'Alexandra',
-    'Nikola',
-    'Pete'
-]);
+
+echo $organizer->renderReport($participants);
 
 echo "\n";
 echo "Round 2\n";
 echo "=======\n";
 echo "\n";
 
-echo $organizer->renderReport([
-    'Pete',
-    'Laura',
-    'Oleksi',
-    'Norbert',
-    'Alexandra',
-    'Nikola',
-    'Pete'
-]);
+echo $organizer->renderReport($participants);

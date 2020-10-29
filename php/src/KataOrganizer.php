@@ -97,11 +97,13 @@ class KataOrganizer
         $newRooms = $rooms;
         $lastRoom = array_pop($newRooms);
         $firstRoom = array_shift($newRooms);
-        $newRooms = array_merge(
+        $newRooms = array_filter(array_merge(
             [ $lastRoom ],
             $newRooms,
             [ $firstRoom ]
-        );
+        ), function (?Room $room) {
+            return $room !== null;
+        });
 
         foreach ($newRooms as $room) {
             assert($room instanceof Room);
