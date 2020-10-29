@@ -2,11 +2,11 @@
 
 class Room
 {
-    private string $name;
+    private $name;
 
-    private array $occupants = [];
+    private $occupants = [];
 
-    private int $capacity;
+    private $capacity;
 
     public function __construct(string $name, int $capacity = 2, array $occupants = [])
     {

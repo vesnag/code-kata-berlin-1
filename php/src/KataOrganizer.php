@@ -2,11 +2,11 @@
 
 class KataOrganizer
 {
-    private array $roomNames;
+    private $roomNames;
 
-    private array $hosts;
+    private $hosts;
 
-    private array $previous = [];
+    private $previous = [];
 
     public function __construct(array $roomNames, array $hosts = [])
     {
@@ -39,19 +39,19 @@ class KataOrganizer
         $rooms = array_map(function (string $name) {
             return new Room($name);
         }, $this->roomNames);
-        
+
         $room = array_shift($rooms);
         assert($room instanceof Room);
         $hosts = $this->hosts;
         $freeHost = reset($hosts);
-        
+
         $occupiedRooms = [];
-        
+
         foreach ($people as $person) {
             if (!$room->hasCapacity()) {
                 $room = array_shift($rooms);
                 assert($room instanceof Room);
-        
+
                 if (!$room) {
                     throw new RuntimeException(sprintf(
                         'No more room for %s! all %s rooms are full and there is no more space',
@@ -60,18 +60,18 @@ class KataOrganizer
                     ));
                 }
             }
-        
+
             $room->assign($person);
-        
+
             if ($room->isFull()) {
                 $occupiedRooms[] = $room;
             }
         }
-        
+
         if (!$room->isFull()) {
             $occupiedRooms[] = $room;
         }
-        
+
         if ($room->occupantCount() === 1) {
             if ($freeHost) {
                 $room->assign($freeHost);
@@ -81,7 +81,7 @@ class KataOrganizer
                 ));
             }
         }
-        
+
         return $occupiedRooms;
     }
 
