@@ -2,3 +2,4 @@ javascript/node_modules
 php/vendor
 javascript/coverage
 .idea
+php/.phpunit.result.cache
