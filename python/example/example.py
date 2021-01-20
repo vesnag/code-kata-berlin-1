@@ -1,4 +1,7 @@
-def do_nothing(item:str) -> int:
-    if str == "example":
-        return 1
+from typing import Dict, List
+
+
+def do_nothing(input: Dict[int, List[str]]) -> int:
+    if not input:
+        raise ValueError()
     return 42
