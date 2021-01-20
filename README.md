@@ -75,6 +75,27 @@ Run the specs:
 $ ./vendor/bin/phpspec run
 ```
 
+### Python
+
+```
+$ cd python
+```
+
+Install, create and activate the virtualenv:
+
+```
+$ pip3 install virtualenv
+$ virtualenv -p python3 venv
+$ . venv/bin/activate
+$ pip install -r requirements.txt
+```
+
+Run the tests:
+
+```
+$ venv/bin/pytest -vvv
+```
+
 ## Remember to DELETE YOUR CODE!
 
 ```

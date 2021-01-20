@@ -2,3 +2,6 @@ javascript/node_modules
 php/vendor
 javascript/coverage
 .idea
+venv
+.vscode
+__pycache__/
