@@ -6,7 +6,7 @@ def test_do_nothing_raises_value_error():
     assert_that(calling(do_nothing).with_args(dict()), raises(ValueError))
 
 
-def test_binary_search_returns_negative_if_item_not_present():
+def test_do_nothing_does_nothing():
     input = {
         1: ['A', 'B'],
         2: ['C']
