@@ -1,12 +1,12 @@
-# Code Kata Berlin 1 (Javascript / typescript)
+# Code Kata Berlin 1 (TypeScript)
 
 ## Getting Started
 
-Start your project in the `javascript` directory:
+Start your project in the `typescript` directory:
 
 ```
-$ cd javascript
-$ npm install
+$ cd typescript
+$ yarn
 ```
 
 ### Quick start with a new kata
@@ -14,13 +14,13 @@ $ npm install
 run following
 
 ```
-$ npm run kata:new <kataName>
+$ yarn kata:new <kataName>
 ```
 
 `kataName` argument needs to be the name of the kata.
 
 It will create a new directory  
-`/javascript/src/<kataName>`
+`/typescript/src/<kataName>`
 
 with files
 
@@ -38,13 +38,13 @@ You are all set to start coding.
 #### Run the tests:
 
 ```
-$ npm test
+$ yarn test
 ```
 
 Run the tests and watch file changes:
 
 ```
-$ npm test-watch
+$ yarn test-watch
 ```
 
 #### Run the tests using VSCode extension

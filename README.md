@@ -4,57 +4,9 @@ Code Kata Bootstrap repository:
 
 ## Getting Started
 
-### JavaScript
+### TypeScript
 
-Start your project in the `javascript` directory:
-
-```
-$ cd javascript
-$ yarn
-```
-
-### Quick start with a new kata
-
-run following
-
-```
-$ yarn kata:new <kataName>
-```
-
-`kataName` argument needs to be the name of the kata.
-
-It will create a new directory  
-`/javascript/src/<kataName>`
-
-with files
-
-```
-|-src
-  |- <kataName>
-    |- index.ts
-    |- index.test.ts
-```
-
-which contains basic barebone to get you up and running and runs jest watch on that directory for you.
-
-You are all set to start coding.
-
-#### Run the tests:
-
-```
-$ yarn test
-```
-
-Run the tests and watch file changes:
-
-```
-$ yarn test-watch
-```
-
-#### Run the tests using VSCode extension
-
-Or install Jest for VSCode
-https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
+[README](./typescript/README.MD)
 
 ### PHP
 
