@@ -1,7 +1,13 @@
-javascript/node_modules
-php/vendor
-javascript/coverage
 .idea
-venv
 .vscode
+
+javascript/node_modules
+typescript/node_modules
+
+javascript/coverage
+typescript/coverage
+
+php/vendor
+
+venv
 __pycache__/
