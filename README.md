@@ -10,7 +10,7 @@ Start your project in the `javascript` directory:
 
 ```
 $ cd javascript
-$ npm install
+$ yarn
 ```
 
 ### Quick start with a new kata
@@ -18,7 +18,7 @@ $ npm install
 run following
 
 ```
-$ npm run kata:new <kataName>
+$ yarn kata:new <kataName>
 ```
 
 `kataName` argument needs to be the name of the kata.
@@ -42,13 +42,13 @@ You are all set to start coding.
 #### Run the tests:
 
 ```
-$ npm test
+$ yarn test
 ```
 
 Run the tests and watch file changes:
 
 ```
-$ npm test-watch
+$ yarn test-watch
 ```
 
 #### Run the tests using VSCode extension
